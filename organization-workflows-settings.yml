@@ -7,3 +7,4 @@ exclude:
   - helm-charts
   - keycloak-configuration
   - spoiler
+  - deployments
