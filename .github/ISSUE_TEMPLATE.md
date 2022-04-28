@@ -4,71 +4,58 @@ labels: 'tech-debt'
 
 ---
 
-<!-- IF you don't have any info, just erase for the template -->
-
-# Tech Debt Title
-
 ## Summary
 
-> TL;DR: A simple summary about the tech debt
+TL;DR: A simple summary about the tech debt.
 
-**Feature related:**
+**Related feature:** Is it related to what major feature (e.g. visits, crm, contracts)?
+
+<!--
+Those below are going to be transformed into labels:
+
+Age labels:
+
+  - LEGACY: found in the codebase and being documented right now.
+
+  - NEW_TECH_DEBT_INTRODUCED: we intentionally added a new tech debt in our codebase right now and we're documenting it.
+
+Estimated cost labels:
+
+  - SIMPLE: It's simple to identify the solution, fix it and test it.
+
+  - COMPLEX: It's not so simple to understand it and fix it. It may also require big refactoring.
+
+  - INVESTIGATION_NEEDED: There's a lot of unknowns, so that it's impossible to say until it's prioritized, investigated
+                          and have proposed solutions.
+-->
 
 **Age:** { age:legacy | age:new-tech-debt-introduced }
 
-**Present since:** 201X-XX-XX
-
-<!--
-  Age labels:
-
-  - LEGACY: found in the codebase and being document right now.
-
-  - NEW_TECH_DEBT_INTRODUCED: we consciously added a new tech debt in our code base right now and we're document it.
--->
+**Present since:** YYYY-MM-DD
 
 **Estimated cost:** { estimatedcost:simple | estimatedcost:complex | estimatedcost:investigation_needed }
-<!-- going to transform also in a label -->
-
-<!--
-  Estimated cost labels:
-
-  - SIMPLE: It's simple to identify the solution and clearly simple to solve and test.
-
-  - COMPLEX: It's not so simple to understand and fix it. it also may require big refactorings.
-
-  - INVESTIGATION_NEEDED: There's a lot of unknowns related that it's impossible to say until it's prioritized, invetigated and have proposed solutions.
--->
 
 **Type:** { type:documentation | type:coding | type:testing }
 
-### Description :clipboard:
+## Description
 
-A clear and concise description of what the tech debt is and the reason of being created
+<!-- Give a clear and concise description of what the tech debt is. -->
 
-### Impact :bomb:
-
-Description of the current or possible impact of this tech debt.
-
-<!-- estimated -->
-**Critical in**: { N MONTHS | N YEARS | UNKOWN }
-
-or
-
-**Critical when**
-
-### Solution Hints :shipit:
+## Impact
 
 <!--
-Here you should add only hints, context, and opinions
-but let the solution proposal in a PR for ADR.
+Include a description of the current or possible impact of this tech debt and when it's estimated to become critical.
 -->
 
-Description of solution hints that you have in mind.
+**Critical in**: { N MONTHS | N YEARS | UNKOWN }
 
-## Observations :thinking:
+## Solution Hints
 
-### Files related or evidences (like: prints)
+<!--
+Add hints, context and opinions about what you imagine the solution to be, but leave the solution proposal to a proper
+RFC: https://www.notion.so/productquintoandar/e0d70402926142029e9285d28b206ea4?v=5635c5a0d59942f98da1ff80f857207c.
+-->
 
-[files related](files_related_link.file)
+## Further info
 
-Depends on issue X
+<!-- Include related files, evidences and linked issues here (e.g. screenshots, logs, pull requests, JIRA issues). -->
