@@ -45,7 +45,10 @@ Give a clear and concise description of what the tech debt is.
 
 ## Impact :bomb:
 
-Include a description of the current or possible impact of this tech debt and when it's estimated to become critical.
+<!--
+Include a description of the current or possible impact of this tech debt
+and when it's estimated to become critical.
+-->
 
 **Critical in**: { N MONTHS | N YEARS | UNKOWN }
 
