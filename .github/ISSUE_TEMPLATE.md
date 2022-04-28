@@ -4,8 +4,6 @@ labels: 'tech-debt'
 
 ---
 
-<!-- If you don't have any info, just erase the template -->
-
 ## Summary
 
 TL;DR: A simple summary about the tech debt.
@@ -33,30 +31,31 @@ Estimated cost labels:
 
 **Age:** { age:legacy | age:new-tech-debt-introduced }
 
-**Present since:** 20XX-XX-XX
+**Present since:** YYYY-MM-DD
 
 **Estimated cost:** { estimatedcost:simple | estimatedcost:complex | estimatedcost:investigation_needed }
 
 **Type:** { type:documentation | type:coding | type:testing }
 
-## Description :clipboard:
+## Description
 
-Give a clear and concise description of what the tech debt is.
+<!-- Give a clear and concise description of what the tech debt is. -->
 
-## Impact :bomb:
+## Impact
 
 <!--
-Include a description of the current or possible impact of this tech debt
-and when it's estimated to become critical.
+Include a description of the current or possible impact of this tech debt and when it's estimated to become critical.
 -->
 
 **Critical in**: { N MONTHS | N YEARS | UNKOWN }
 
-## Solution Hints :shipit:
+## Solution Hints
 
-Add only hints, context, and opinions about what you imagine the solution to be, but leave the solution proposal to a
-proper [RFC](https://www.notion.so/productquintoandar/e0d70402926142029e9285d28b206ea4?v=5635c5a0d59942f98da1ff80f857207c).
+<!--
+Add hints, context and opinions about what you imagine the solution to be, but leave the solution proposal to a proper
+RFC: https://www.notion.so/productquintoandar/e0d70402926142029e9285d28b206ea4?v=5635c5a0d59942f98da1ff80f857207c.
+-->
 
-## Further info :thinking:
+## Further info
 
-Include related files, evidences and linked issues here (e.g. screenshots, logs, pull requests).
+<!-- Include related files, evidences and linked issues here (e.g. screenshots, logs, pull requests, JIRA issues). -->
