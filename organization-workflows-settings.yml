@@ -6,4 +6,3 @@ exclude:
   - k8s-automation
   - keycloak-configuration
   - spoiler
-  - deployments
