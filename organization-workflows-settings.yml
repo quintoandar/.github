@@ -4,3 +4,4 @@ exclude:
   repositories: # Repositories that are excluded and should not trigger organization workflows. Accepts wildcards. (default: [])
   - keycloak-configuration
   - spoiler
+  - k8s-resources
