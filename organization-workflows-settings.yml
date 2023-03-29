@@ -5,3 +5,4 @@ exclude:
   - keycloak-configuration
   - spoiler
   - k8s-resources
+  - engineering-docs
