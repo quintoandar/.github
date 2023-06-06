@@ -3,6 +3,5 @@ include_workflows_repository: false # Whether to run these checks for the centra
 exclude:
   repositories: # Repositories that are excluded and should not trigger organization workflows. Accepts wildcards. (default: [])
   - keycloak-configuration
-  - spoiler
   - k8s-resources
   - engineering-docs
