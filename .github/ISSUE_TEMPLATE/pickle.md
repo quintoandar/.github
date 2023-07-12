@@ -1,5 +1,5 @@
 ---
-name: 🐞 Pickle
+name: 🥒 Pickle
 about: Create a pickle
 title: ''
 labels: 'pickle'
@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-## 😰 Describe the pickle
+## 😰 Describe the pickle 🥒
 
-A clear and concise description of what the pickle is.
+A clear and concise description of what the 🥒 is.
 
 WIP
 TODO
