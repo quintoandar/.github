@@ -1,5 +1,5 @@
 ---
-name: "🥒 pickle: Your Pickle"
+name: 🥒 Pickle
 about: Create a pickle
 title: ''
 labels: 'pickle'
