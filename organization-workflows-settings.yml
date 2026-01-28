@@ -4,3 +4,4 @@ exclude:
   repositories: # Repositories that are excluded and should not trigger organization workflows. Accepts wildcards. (default: [])
   - k8s-resources
   - engineering-docs
+  - interview-walkability-calculator
