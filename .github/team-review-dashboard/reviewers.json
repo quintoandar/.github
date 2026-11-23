@@ -1,0 +1,27 @@
+{
+  "defaultPeriodDays": 7,
+  "timezone": "America/Fortaleza",
+  "org": "quintoandar",
+  "reviewers": [
+    {
+      "name": "Guilherme Faleiros",
+      "logins": ["guilhermefaleiros", "guilhermefaleiros1"]
+    },
+    {
+      "name": "Augusto Xavier",
+      "logins": ["XavierNeto"]
+    },
+    {
+      "name": "Bruno Pontes",
+      "logins": ["brunopdt"]
+    },
+    {
+      "name": "Williams Santiago",
+      "logins": ["wssantiago"]
+    },
+    {
+      "name": "Yhago Carvalho",
+      "logins": ["yhagocarvalho"]
+    }
+  ]
+}
